@@ -1,0 +1,15 @@
+---
+out:
+  package: main
+  file: out.go
+suffix: Field
+inner_prefix: inner
+fields:
+  Adult:
+    type: bool
+    default: true
+structs:
+  Movie:
+    Adult: Adult
+  Person:
+    Adult: Adult
